@@ -35,4 +35,8 @@ public class Product {
 
     public void setPrice(float price) { Price = price; }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
